@@ -1,0 +1,1 @@
+C:\Users\bsouz\OneDrive\Documentos\GitHub\Rust\ex_doc_rust\capitulo03\Tipos-de-dados\target\debug\Tipos-de-dados.exe: C:\Users\bsouz\OneDrive\Documentos\GitHub\Rust\ex_doc_rust\capitulo03\Tipos-de-dados\src\main.rs
