@@ -20,3 +20,6 @@ fn func_num(x: i32) {
 fn num_mais(primeiro: i32, segundo: char){
     println!("Primeiro parametro {primeiro}, segundo parametro {segundo}");
 }
+
+// Os valores dos parametros são são delinidos na chamada da funçãa, ja na função em si são definidos os nomes e os tipos dos parametros, como podemos ver acima.
+
