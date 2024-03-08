@@ -1,6 +1,4 @@
 // Jogo de adivinhação:
-use std::io;
-
 use std::io; // Chamada para biblioteca de entrada e saida 
 
 fn main() {
@@ -14,3 +12,4 @@ fn main() {
 
     println!("Vôce disse: {}", palpite);
 }
+ 
