@@ -1,3 +1,5 @@
+// Jogo de adivinhação:
+
 use std::io;
 
 fn main() {
