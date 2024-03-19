@@ -2,6 +2,7 @@
 extern crate rand;
 
 use std::io; // Chamada para biblioteca de entrada e saida 
+use std::cmp::Ordering;
 use rand::Rng;
 
 fn main() {
@@ -18,5 +19,14 @@ fn main() {
     io::stdin().read_line(&mut palpite) // Recebe o que o usuário digita na entrada padrão e coloca isso numa string.
         .expect("Falha ao ler entrada");  // Essa linha é responsavel por tratar possiveis erros, isso irá parar o programa.
 
+    let palpite: u32 = palpite.trim().parse()
+        .expect("Por favor, digite em número");
+
     println!("Você disse: {}", palpite); // Essa linha imprime a string que salvamos os dados inseridos pelo usuário.
+
+    match palpite.cmp(&numero_secreto) {
+        Ordering::Less => println!("Muito baixo!"),
+        Ordering::Greater => println!("Muito baixo!"),
+        Ordering::Equal => println!("Você acertou!"),
+    }
 }
